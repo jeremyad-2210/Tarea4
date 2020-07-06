@@ -12,12 +12,12 @@ Para la mudulación se desarrolla una sección de detección de ceros y unos ind
 
 5) Para demodular y decodificar la señal fue necesario calcular la potencia del ruido, que corresponde, con base en lo que ya conocemos del curso a la desviación estándar de la distribución, es por ello la importancia de obtener este parámetro en la modulación, para decodificar fue necesario determinar los cerps y unos que se reciben, con base en este desarollo es posible calcular la cantidad de errores y el BER (Parámetro importante en la modulación), para la cantidad de errores se debió detectar la presencia de ceros y unos y compararlos con la señal, al momento de que no coincidan se gereará un error. 
 Dato importante: Como se genera ruido gaussiano de forma aleatoria, cada vez que se ejecuta el código, los errores serán distintos, sin embargo, todos estos resultados se obtuvieron de la ejecución que se presenta en la figura (Resultados BER vs SNR), donde se muestra que : 
-SNR = -2 -> 16 errores -> 0.0016 de probabilidad
-SNR = -1 -> 4 errores -> 0.0004 de probabilidad
-SNR = 0 -> 1 errores -> 0.0001 de probabilidad
-SNR = 1 -> 0 errores -> 0.0000 de probabilidad
-SNR = 2 -> 0 errores -> 0.0000 de probabilidad
-SNR = 3 -> 0 errores -> 0.0000 de probabilidad
+# SNR = -2 -> 16 errores -> 0.0016 de probabilidad
+# SNR = -1 -> 4 errores -> 0.0004 de probabilidad
+# SNR = 0 -> 1 errores -> 0.0001 de probabilidad
+# SNR = 1 -> 0 errores -> 0.0000 de probabilidad
+# SNR = 2 -> 0 errores -> 0.0000 de probabilidad
+# SNR = 3 -> 0 errores -> 0.0000 de probabilidad
 
 6) La gráfica de BER vs SNR se obtiene de forma sencilla con base en los datos que se obtuvieron en lo puntos anteriores y nos indica graficamente lo que se obtuvo en el punto 5, indicando la correspondencia entre la probabilidad de error o el porcentaje de error con el valor en decibeles. Este resultado se puede observar en la figura (BER vs SNR).
 
